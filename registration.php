@@ -46,7 +46,7 @@ function test_input($data) {
  //if(empty($nameErr)&&empty($emailErr)&&empty($phoneErr)&&($ageErr)){
     $dsresult=$obj->insert($name,$email,$phone,$age);
     if($dsresult){
-        echo "data inserted successfully";
+        echo "Data Inserted Successfully";
     }
 }
 ?>
